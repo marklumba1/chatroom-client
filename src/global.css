@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    @apply p-0 m-0 text-white font-mono
+}
+body {
+    @apply bg-slate-900
+}
+button {
+    @apply border px-2 rounded bg-orange-900
+}
+button:hover {
+    @apply bg-orange-800 transition
+}
+
+input {
+    @apply border rounded px-2 text-orange-900
+}

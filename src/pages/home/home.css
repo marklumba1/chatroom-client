@@ -1,0 +1,10 @@
+.home-container{
+    @apply h-screen grid place-items-center
+}
+
+.home-inner{
+    @apply flex flex-col border p-2 rounded gap-2 text-center
+}
+.home-inner p{
+    @apply text-lg
+}

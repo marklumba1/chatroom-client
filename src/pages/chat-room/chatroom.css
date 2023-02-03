@@ -1,0 +1,18 @@
+.chatroom-container{
+    @apply h-screen grid place-items-center
+}
+
+.chatroom-inner{
+    @apply border grid grid-cols-5 grid-rows-5 w-[80vw] h-[50vh]
+}
+
+.chat-users-list{
+    @apply row-span-5 col-span-1 bg-red-900 bg-opacity-10
+}
+
+.chat-body{
+    @apply border col-span-4 row-span-4 overflow-auto
+}
+.chat-message{
+    @apply border col-span-4 row-span-1
+}

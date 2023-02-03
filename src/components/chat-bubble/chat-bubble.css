@@ -1,0 +1,9 @@
+.chat-bubble-container{
+    @apply flex 
+}
+.chat-bubble-inner{
+    @apply border w-fit rounded bg-red-900 p-1
+}
+.me{
+    @apply justify-end text-right
+}

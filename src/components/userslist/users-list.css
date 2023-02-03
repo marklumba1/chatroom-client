@@ -1,0 +1,7 @@
+
+.users-list-container p{
+    @apply bg-red-900 rounded-t p-1
+}
+.users-list-container ul{
+    @apply p-1
+}

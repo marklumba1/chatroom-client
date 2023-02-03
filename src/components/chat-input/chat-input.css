@@ -1,0 +1,10 @@
+.chat-input-container{
+    @apply p-1 
+}
+
+.cst-input-group{
+    @apply flex gap-1
+}
+.cst-input-group input{
+    @apply w-full
+}
